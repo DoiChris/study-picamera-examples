@@ -9,7 +9,7 @@ from processor.face_detector import FaceDetector as VideoCamera
 import time
 import threading
 
-video_camera = VideoCamera(flip=False)
+video_camera = VideoCamera(flip=True)
 
 
 app = Flask(__name__)
